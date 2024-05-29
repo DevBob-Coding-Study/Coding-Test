@@ -2,11 +2,11 @@
 function solution(participant, completion) {   
     let hashMap = new Map();
     
-    for (const par of participant) {
+    for (let par of participant) {
         hashMap.set(par, (hashMap.get(par) || 0) + 1);
     }
     
-    for (const com of completion) {
+    for (let com of completion) {
         hashMap.set(com, hashMap.get(com) - 1);
     }
     
