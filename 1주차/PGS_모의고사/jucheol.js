@@ -23,6 +23,8 @@ function solution(answers) {
 	return answer;
 }
 
+
+
 // 4차 시도 (성공) - 시간 복잡도: O(n)
 function solution(answers) {
 	const patterns = [
@@ -40,6 +42,8 @@ function solution(answers) {
 	return scores.map((score, index) => (score === maxScore ? index + 1 : null)).filter(Boolean);
 }
 
+
+
 // 3차 시도 (성공) - 시간 복잡도: O(n)
 function solution(answers) {
 	const patterns = [
@@ -56,6 +60,8 @@ function solution(answers) {
 
 	return scores.map((score, index) => (score === maxScore ? index + 1 : null)).filter(Boolean);
 }
+
+
 
 // 2차 시도 (성공) - 시간 복잡도: O(n)[그런데 가장 효율적임]
 function solution(answers) {
@@ -80,7 +86,9 @@ function solution(answers) {
 	return result;
 }
 
-// 1차 시도 (성공) - 시간 복잡도: O(n * m)
+
+
+// 1차 시도 (성공) - 시간 복잡도: O(n * m)...인데 m은 상수인 3으로 볼 수도 있어서 O(n)에 가까움
 function solution(answers) {
 	const petterns = [
 		[1, 2, 3, 4, 5],
