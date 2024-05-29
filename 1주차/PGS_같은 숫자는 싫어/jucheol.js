@@ -1,4 +1,4 @@
-// 3차 해결 - 자체 배열 스택 사용
+// 3차 시도 (성공) - 자체 배열 스택 사용
 function solution(arr) {
 	const stack = new Stack_Array();
 	for (let i = 0; i < arr.length; i++) {
@@ -11,36 +11,36 @@ function solution(arr) {
 
 
 
-// 3차 실패 (시간 초과) - 자체 연결리스트 스택 사용
-// function solution(arr) {
-// 	const stack = new Stack_LinkedList();
-// 	for (let i = 0; i < arr.length; i++) {
-// 		if (arr[i] != arr[i + 1]) {
-// 			stack.push(arr[i]);
-// 		}
-// 	}
-// 	return stack.toArray();
-// }
+// 3차 시도 (실패: 시간 초과) - 자체 연결리스트 스택 사용
+function solution(arr) {
+	const stack = new Stack_LinkedList();
+	for (let i = 0; i < arr.length; i++) {
+		if (arr[i] != arr[i + 1]) {
+			stack.push(arr[i]);
+		}
+	}
+	return stack.toArray();
+}
 
 
 
-// 2차 해결 - 내장 스택 사용
-// function solution(arr) {
-// 	const stack = [];
-// 	for (let i = 0; i < arr.length; i++) {
-// 		if (stack.length === 0 || arr[i] !== stack[stack.length - 1]) {
-// 			stack.push(arr[i]);
-// 		}
-// 	}
-// 	return stack;
-// }
+// 2차 시도 (성공) - 내장 스택 사용
+function solution(arr) {
+	const stack = [];
+	for (let i = 0; i < arr.length; i++) {
+		if (stack.length === 0 || arr[i] !== stack[stack.length - 1]) {
+			stack.push(arr[i]);
+		}
+	}
+	return stack;
+}
 
 
 
-// 1차 해결 - 스택/큐 미사용
-// function solution(arr) {
-// 	return arr.filter((value, index) => value != arr[index + 1]);
-// }
+// 1차 시도 (성공) - 스택/큐 미사용
+function solution(arr) {
+	return arr.filter((value, index) => value != arr[index + 1]);
+}
 
 
 
