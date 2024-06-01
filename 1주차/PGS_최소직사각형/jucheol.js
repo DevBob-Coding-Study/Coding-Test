@@ -12,6 +12,8 @@ function solution(sizes) {
 	return result[0] * result[1];
 }
 
+
+
 // 2차 시도 (성공)
 function solution(sizes) {
 	let result = [0, 0];
@@ -22,6 +24,8 @@ function solution(sizes) {
 	});
 	return result[0] * result[1];
 }
+
+
 
 // 1차 시도 (성공)
 function solution(sizes) {
