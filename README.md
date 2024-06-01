@@ -56,6 +56,10 @@
    1. 각자 최소 1문제 이상 발표를 목표로 합니다.
    2. 자신이 풀이한 문제를 이해한 상태에서 발표를 진행해야 합니다.
    3. 첫주의 경우, 모든 게 모호한 상황이므로 수요일 막바지에 뽑기로 각 1단계 문제별로 발표할 사람을 정합니다.
+6. 목요일 발표 전까지 PR을 완료합시다.
+   1. 매주 순서대로 상대방의 코드를 확인합니다.
+   2. 확인 후 상대방의 코드에 반응 혹은 피드백하고 PR을 머지합니다.
+   3. <strong>[피드백 순서 스프레드시트 바로가기](https://docs.google.com/spreadsheets/d/1enOYnRr3T-MFvWaLJQ0gEaToxAmxymSP8yXep1Iz_jI/edit?usp=sharing)</strong>
 
 ### 👩‍🏫 문제 발표
 > 문제 발표는 문제 당 10분 이내로 진행합니다. 너무 길어지면 3시간을 넘길수도 있으니 주의합시다. <br>
@@ -111,11 +115,12 @@ git commit -m "해당 주차 / [FIXED][플랫폼 약어] 문제명 / 소요 시�
 ---
 ### 🖨 PR 규칙
 ```
-해당 주차 [플랫폼 약어] 문제명 개인영문이름-행위
+통합: 해당 주차 [플랫폼 약어] 개인이름-행위
+개별: 해당 주차 [플랫폼 약어] 문제명 개인영문이름-행위
 ```
-1. 예시 1) 1주차 [BOJ] 가장 긴 증가하는 부분 수열 5 gildong-제출
-2. 예시 2) 3주차 [BOJ] 알고리즘 수업 - 너비 우선 탐색 2 younghee-제출
-3. 예시 3) 6주차 [PGS] 수박수박수박수박수박수? gilsoon-수정
+1. 예시 1) 1주차 [BOJ] 홍길동-제출
+2. 예시 2) 3주차 [PGS] 김영희-수정
+3. 예시 3) 6주차 [BOJ] 수박수박수박수박수박수? gilsoon-수정
 4. 예시 4) 9주차 [PGS] [1차] 비밀지도 cheolsu-오류
 ---
 ### 📁 리포지토리 구조
@@ -158,7 +163,28 @@ git commit -m "해당 주차 / [FIXED][플랫폼 약어] 문제명 / 소요 시�
 ----------
 
 <details markdown="1">
-<summary><strong> 💾 [2주차] 프로그래머스 - ??? </summary></strong>
+<summary><strong> 💾 [2주차] 프로그래머스 - 코딩테스트 고득점 Kit 2단계 </summary></strong>
+<br>
+
+| 알고리즘 | 문제 | 레벨 | URL |
+| :--: | :--: | :--: | :--: |
+| 해시 | 전화번호 목록 | 2 | https://school.programmers.co.kr/learn/courses/30/lessons/42577 |
+| 해시 | 의상 | 2 | https://school.programmers.co.kr/learn/courses/30/lessons/42578 |
+| 스택/큐 | 기능개발 | 2 | https://school.programmers.co.kr/learn/courses/30/lessons/42586 |
+| 스택/큐 | 올바른 괄호 | 2 | https://school.programmers.co.kr/learn/courses/30/lessons/12909 |
+| 스택/큐 | 프로세스 | 2 | https://school.programmers.co.kr/learn/courses/30/lessons/42587 |
+| 스택/큐 | 다리를 지나는 트럭 | 2 | https://school.programmers.co.kr/learn/courses/30/lessons/42583 |
+| 스택/큐 | 주식가격 | 2 | https://school.programmers.co.kr/learn/courses/30/lessons/42584 |
+| 힙(Heap) | 더 맵게 | 2 | https://school.programmers.co.kr/learn/courses/30/lessons/42626 |
+| 정렬 | 가장 큰 수 | 2 | https://school.programmers.co.kr/learn/courses/30/lessons/42746 |
+| 정렬 | H-Index | 2 | https://school.programmers.co.kr/learn/courses/30/lessons/42747 |
+
+</details>
+
+----------
+
+<details markdown="1">
+<summary><strong> 💾 [3주차] 프로그래머스 - ??? </summary></strong>
 <br>
 
 | 알고리즘 | 문제 | 레벨 | URL |
