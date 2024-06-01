@@ -17,7 +17,7 @@
     <td align="center"><a href="https://github.com/espoiryoung"><img src="https://avatars.githubusercontent.com/u/80727081" width="50px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/gkstjgms"><img src="https://avatars.githubusercontent.com/u/55805522" width="50px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/haegu97"><img src="https://avatars.githubusercontent.com/u/108677235" width="50px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/JieunIee"><img src="https://avatars.githubusercontent.com/u/86454901" width="50px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/moko0428"><img src="https://avatars.githubusercontent.com/u/39412219" width="50px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/jukrap"><img src="https://avatars.githubusercontent.com/u/11244617" width="50px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/murramge"><img src="https://avatars.githubusercontent.com/u/60298173" width="50px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/zyyyun"><img src="https://avatars.githubusercontent.com/u/115001774" width="50px;" alt=""></a></td>
