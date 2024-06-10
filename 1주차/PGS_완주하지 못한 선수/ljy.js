@@ -11,7 +11,7 @@ function solution(participant, completion) {
   }
 }
 
-// 이 역시 Chat GPT에게 물어본 결과 해시 알고리즘을 사용하지 않은 코드였고, GPT가 알려준 해시 알고리즘 답안은 아래와 같습니다.
+// 이 역시 Chat GPT에게 물어본 결과 해시 알고리즘을 사용하지 않은 코드였고, GPT가 알려준 해시 알고리즘 답안은 아래와 같습니다
 
 function GPTSolution(participant, completion) {
   let participantMap = new Map();
