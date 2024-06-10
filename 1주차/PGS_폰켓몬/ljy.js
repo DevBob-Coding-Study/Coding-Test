@@ -10,6 +10,3 @@ function solution(nums) {
   return result.length;
 }
 console.log(solution([3, 1, 2, 3]));
-
-// 알고리즘을 사용했다기 보다, 문제에 충실하게 알고리즘 없이 풀기는 했습니다.
-// 근데 Chat GPT에게 해시 알고리즘을 사용해서 푼거야? 라고 물어봤는데 네, 라고 하네요..
