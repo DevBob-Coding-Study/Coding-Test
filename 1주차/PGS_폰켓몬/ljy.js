@@ -6,7 +6,7 @@ function solution(nums) {
   let setNums = new Set(nums);
   // 스프레드 연산자로 Set 객체를 배열로 변환 후, 최대 선택 가능한 수 만큼의 요소만 포함하는 배열을 만들어준다.
   let result = [...setNums].slice(0, myMon);
-  // 배열의 길이를 반환해준다.
+  // 배열의 길이를 반환해준다
   return result.length;
 }
 console.log(solution([3, 1, 2, 3]));

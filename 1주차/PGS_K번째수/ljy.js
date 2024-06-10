@@ -8,7 +8,7 @@ function solution(array, commands) {
     let sortArray = array
       .slice(commands[[i]][0] - 1, commands[[i]][1])
       .sort((a, b) => a - b);
-    // 정렬된 배열에서 지정된 위치의 값을 s 배열에 저장한다.
+    // 정렬된 배열에서 지정된 위치의 값을 s 배열에 저장한다
     s[i] = sortArray[commands[[i]][2] - 1];
   }
   return s;
